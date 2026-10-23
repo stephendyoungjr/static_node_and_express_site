@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "WarBnB",
+      "description": "An Airbnb-style booking app set in a fantasy world, where users can browse and book stays across magical realms.",
+      "technologies": ["React", "JavaScript", "Express", "PostgreSQL"],
+      "live_link": "https://api-project-bnb.onrender.com/",
+      "github_link": "https://github.com/stephendyoungjr/WarBnB",
+      "image_urls": [
+        "../images/warbnb1resized.jpg",
+        "../images/warbnb2resized.jpg"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "GoGather",
+      "description": "An event registration and attendance app with full CRUD functionality, letting users create, browse, register for, and manage events.",
+      "technologies": ["React", "JavaScript", "Express", "PostgreSQL"],
+      "live_link": "https://gogather.onrender.com/",
+      "github_link": "https://github.com/stephendyoungjr/GoGather",
+      "image_urls": [
+        "../images/goGather2resized.jpg",
+        "../images/goGather1resized.jpg"
+      ]
+    }
+  ]
+}

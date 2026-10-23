@@ -1,0 +1,7 @@
+extends layout.pug
+
+block content
+  article.portfolio-intro
+    h1 Oops! There is an Error #{err.status}
+    p #{err.message}
+    a.btn-link(href='/') Back to Home
