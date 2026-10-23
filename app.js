@@ -15,6 +15,8 @@ app.set('view engine', 'pug');
 //serve a static file (css, images, js) from public folder
 app.use('/static',express.static('public'));
 
+app.use('/images', express.static('images'));
+
 
 // Home page : pass array of projects to index.pug 
 // {projects} is the same as {projects : projects }
@@ -31,7 +33,7 @@ res.render('about');
 });
 
 //:id is placeholder for variable id 
-app.get('/project/:id', (req, res)=> {
+app.get('/project/:id', (req, res, next)=> {
 // get project page by id match in url 
 //recieve id from url, it will be a string
 const idFromUrl = req.params.id;
@@ -53,19 +55,23 @@ if (project){
 
 //error handle 404 
 app.use((req, res, next)=> {
-const err = new Error('Page Not Found');
+const err = new Error('Sorry, we cannot find that page :(');
 err.status = 404;
+console.log(`Error ${err.status}: ${err.message}`);
 next(err);
 })
 
 //error handler global scope
 app.use((err, req, res, next)=> {
 
-err.staticus = err.status || 500;
+err.status = err.status || 500;
 err.message = err.message || 'Something is wrong with the server';
 console.log(`Error ${err.status}: ${err.message}`);
+
+res.status(err.status);
 res.render('error', {err});
 });
+
 
 
 //start server

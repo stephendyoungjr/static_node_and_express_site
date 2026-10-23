@@ -4,24 +4,79 @@
       "id": 0,
       "project_name": "WarBnB",
       "description": "An Airbnb-style booking app set in a fantasy world, where users can browse and book stays across magical realms.",
-      "technologies": ["React", "JavaScript", "Express", "PostgreSQL"],
+      "technologies": [
+        "React",
+        "JavaScript",
+        "Express",
+        "PostgreSQL"
+      ],
       "live_link": "https://api-project-bnb.onrender.com/",
       "github_link": "https://github.com/stephendyoungjr/WarBnB",
       "image_urls": [
-        "../images/warbnb1resized.jpg",
-        "../images/warbnb2resized.jpg"
+        "/images/warbnb1resized.jpg",
+        "/images/warbnb2resized.jpg"
       ]
     },
     {
       "id": 1,
       "project_name": "GoGather",
       "description": "An event registration and attendance app with full CRUD functionality, letting users create, browse, register for, and manage events.",
-      "technologies": ["React", "JavaScript", "Express", "PostgreSQL"],
+      "technologies": [
+        "React",
+        "JavaScript",
+        "Express",
+        "PostgreSQL"
+      ],
       "live_link": "https://gogather.onrender.com/",
       "github_link": "https://github.com/stephendyoungjr/GoGather",
       "image_urls": [
-        "../images/goGather2resized.jpg",
-        "../images/goGather1resized.jpg"
+        "/images/goGather2resized.jpg",
+        "/images/goGather1resized.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Student Wellness Tracker",
+      "description": "A React app that helps students log their daily activities and predict burnout.",
+      "technologies": [
+        "React",
+        "JavaScript"
+      ],
+      "live_link": "https://studentwellnesstracker.onrender.com/",
+      "github_link": "https://github.com/stephendyoungjr",
+      "image_urls": [
+        "/images/studentwellnesstracker1resized.png",
+        "/images/studentwellnesstracker2resized.png"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "Guildmaster's Pouch",
+      "description": "A React-based calculator with a magical twist, complete with a timer and a random number generator.",
+      "technologies": [
+        "React",
+        "JavaScript"
+      ],
+      "live_link": "https://interactivecalculator.onrender.com/",
+      "github_link": "https://github.com/stephendyoungjr",
+      "image_urls": [
+        "/images/interactivecalculator1resized.png",
+        "/images/interactivecalculator2resized.png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "HoneyStock",
+      "description": "A Python-powered stock trading platform that uses APIs to provide real-time market data and portfolio management.",
+      "technologies": [
+        "Python",
+        "APIs"
+      ],
+      "live_link": "https://stock-trading-app-qlg7.onrender.com/",
+      "github_link": "https://github.com/stephendyoungjr",
+      "image_urls": [
+        "/images/honeystock1resized.png",
+        "/images/honeystock2resized.png"
       ]
     }
   ]
