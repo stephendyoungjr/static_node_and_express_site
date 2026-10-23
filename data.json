@@ -43,7 +43,7 @@
         "JavaScript"
       ],
       "live_link": "https://studentwellnesstracker.onrender.com/",
-      "github_link": "https://github.com/stephendyoungjr",
+      "github_link": "https://github.com/stephendyoungjr/StudentWellnessTracker",
       "image_urls": [
         "/images/studentwellnesstracker1resized.png",
         "/images/studentwellnesstracker2resized.png"
@@ -58,7 +58,7 @@
         "JavaScript"
       ],
       "live_link": "https://interactivecalculator.onrender.com/",
-      "github_link": "https://github.com/stephendyoungjr",
+      "github_link": "https://github.com/stephendyoungjr/InteractiveCalculator",
       "image_urls": [
         "/images/interactivecalculator1resized.png",
         "/images/interactivecalculator2resized.png"
@@ -66,17 +66,17 @@
     },
     {
       "id": 4,
-      "project_name": "HoneyStock",
-      "description": "A Python-powered stock trading platform that uses APIs to provide real-time market data and portfolio management.",
+      "project_name": "oop-game-show-app",
+      "description": "A game show guess game.",
       "technologies": [
-        "Python",
-        "APIs"
+        "JavaScript",
+        "CSS"
       ],
-      "live_link": "https://stock-trading-app-qlg7.onrender.com/",
-      "github_link": "https://github.com/stephendyoungjr",
+      "live_link": "https://oop-game-show-app.onrender.com/",
+      "github_link": "https://github.com/stephendyoungjr/oop-game-show-app",
       "image_urls": [
-        "/images/honeystock1resized.png",
-        "/images/honeystock2resized.png"
+        "/images/oopgameshowapp1resize.png",
+        "/images/oopgameshowapp2resize.png"
       ]
     }
   ]
